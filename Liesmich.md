@@ -20,10 +20,10 @@ Die Stimmungsanalyse zeigte, dass Hit-Songs hauptsächlich positive Songtexte ha
 
 Die für die Analyse verwendeten Dateien können hier heruntergeladen werden:
 
-<a href="https://www.kaggle.com/datasets/joebeachcapital/top-10000-spotify-songs-1960-now"> https://www.kaggle.com/datasets/joebeachcapital/top-10000-spotify-songs-1960-now </a>
+<a href="https://www.kaggle.com/datasets/joebeachcapital/top-10000-spotify-songs-1960-now" target="_blank"> https://www.kaggle.com/datasets/joebeachcapital/top-10000-spotify-songs-1960-now </a>
 
 and here
 
-<a href="https://www.kaggle.com/datasets/bwandowando/spotify-songs-with-attributes-and-lyrics"> https://www.kaggle.com/datasets/bwandowando/spotify-songs-with-attributes-and-lyrics </a>
+<a href="https://www.kaggle.com/datasets/bwandowando/spotify-songs-with-attributes-and-lyrics" target="_blank"> https://www.kaggle.com/datasets/bwandowando/spotify-songs-with-attributes-and-lyrics </a>
 
 <img width="1000" height="500" alt="wordcloud_3" src="https://github.com/user-attachments/assets/2fc11a3d-8225-48b8-9ba1-cb9746709944" />
