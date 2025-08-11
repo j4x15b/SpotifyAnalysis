@@ -1,18 +1,19 @@
-This project was created as a final project as part of a training in Data Analytics. 
-We ought to pick some data of any kind and find interesting coherencies to analyse.
-I chose two datasets with songs, one were the top 10 000 songs from 1950 till now played on spotify (this kind of data is always a timestamp, this dataset was from 2024) and the other was a very big dataset with nearly 100 000 songs with lyrics.
-I analysed the coherencies and differences in these datasets according to the spotify metadata and tried to find out, what makes a hit-song.
-Also I put the datasets together and analysed the songtexts of the hit-songs in comparison to all the songs to find out, what hit-lyrics are made of. 
+This project was created as a final project as part of a training program in Data Analytics. 
+The objective was to select a dataset of any kind and find interesting correlations for analysis. 
+I chose two datasets related to songs on spotify: one containing the top 10,000 songs from 1950 to the present (with data from 2024) and another extensive dataset featuring nearly 100,000 songs with lyrics.
+I analyzed the correlations and differences between these datasets based on the Spotify attributes, aiming to determine what makes a hit song. 
+Additionally, I combined the datasets to examine the lyrics of hit songs in comparison to all songs, seeking to find what makes a hit song special.
 
 Results:
-The spotify-features were not very significant. 
-You can say that the Valence of a hit song is more positive. Danceability, Loudness and Energy are also higher on hit songs. 
-Speechiness, Acousticness, Instrumentalness and Liveness are lower. 
-The Track Duration (around 2:30), Tempo (around 120) and Loudness are nearly the same in the two datasets.
+The analysis of the Spotify features revealed that they were not very informative. 
+However, it can be noted that the valence of a hit song tends to be more positive. Other attributes such as danceability, loudness, and energy are also higher in hit songs. 
+On the opposite, speechiness, acousticness, instrumentalness, and liveness are lower. 
+The track duration (approximately 2:30), tempo (around 120 BPM), and loudness are nearly identical across both datasets.
+
 
 Lyrics:
-The sentiment-analysis shows, that the hit-songs have mostly very positive lyrics.
-Theme-Analytics shows, that the hit songs are about: 
+The sentiment analysis indicated that hit songs primarily feature positive lyrics. The theme analysis reveals that hit songs often focus on the following topics:
+
 - Love (touch, feel, believe, tell, fall, forever)
 - good feelings (life, good, think)
 - body-related (body, feel, need, want, somebody)
