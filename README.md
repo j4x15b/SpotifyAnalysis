@@ -1,31 +1,29 @@
-This project was created as a final project as part of a training program in Data Analytics. 
-The objective was to select a dataset of any kind and find interesting correlations for analysis. 
-I chose two datasets related to songs on spotify: one containing the top 10,000 songs from 1950 to the present (with data from 2024) and another extensive dataset featuring nearly 100,000 songs with lyrics.
-I analyzed the correlations and differences between these datasets based on the Spotify attributes, aiming to determine what makes a hit song. 
-Additionally, I combined the datasets to examine the lyrics of hit songs in comparison to all songs, seeking to find what makes a hit song special.
+Dieses Projekt wurde als Abschlussprojekt im Rahmen einer Weiterbildung im Bereich Data Analytics erstellt. Ziel war es, einen beliebigen Datensatz auszuwählen und interessante Korrelationen zur Analyse zu finden. Ich habe zwei Datensätze ausgewählt, die sich auf Songs von Spotify beziehen: einen mit den Top 10.000 Songs von 1950 bis heute (Stand: Ende 2024) und einen weiteren, sehr umfangreichen Datensatz mit nahezu 1.000.000 Songs inklusive Songtexten.
 
-Results:
-The analysis of the Spotify features revealed that they were not very informative. 
-However, it can be noted that the valence of a hit song tends to be more positive. Other attributes such as danceability, loudness, and energy are also higher in hit songs. 
-On the opposite, speechiness, acousticness, instrumentalness, and liveness are lower. 
-The track duration (approximately 2:30), tempo (around 120 BPM), and loudness are nearly identical across both datasets.
+Im ersten Teil der Datenanalyse habe ich die Datensätze bearbeitet, aufgeräumt, versucht, fehlende Daten zu beschaffen, Duplikate gelöscht und Datentypen angeglichen. Im zweiten Teil habe ich eine eine explorative Datenanalyse der Hits vorgenommen, um vor Allem die Entwicklung in den verschiedenen Zeiten und die Verteilung von Songeigenschaften wie Tempo, Tonarten und Songlänge zu bestimmen. Dann habe ich Gemeinsamkeiten und Unterschiede zwischen diesen Datensätzen anhand der Spotify-Attribute analysiert, um herauszufinden, was einen Hit-Song ausmacht. Zusätzlich habe ich die Datensätze kombiniert, um die Texte der Hit-Songs mit denen aller Songs zu vergleichen und zu untersuchen, was einen Hit-Song besonders macht, dann habe ich die Texte analysiert.
 
+Im dritten Teil bin ich mit der Textanalyse leider nicht fertig geworden, da die große Menge an Songs in allen Textverarbeitungsschritten meinen privaten Computer überfordert. Ich habe jedoch eine Textanalyse der Hit-Songs vorgenommen und habe vor, die große Datei Stück für Stück auch noch zu analysieren.
 
-Lyrics:
-The sentiment analysis indicated that hit songs primarily feature positive lyrics. The theme analysis reveals that hit songs often focus on the following topics:
+Ergebnisse:
 
-- Love (touch, feel, believe, tell, fall, forever)
-- good feelings (life, good, think)
-- body-related (body, feel, need, want, somebody)
-- Dancing (dance, everybody, man, girl, hey)
+Die Analyse der Spotify-Features ergab, dass diese nicht sehr unterschiedlich sind. Es lässt sich jedoch beobachten, dass die Valence (Wert für Stimmung) eines Hit-Songs tendenziell höher ist. Weitere Attribute wie Danceability, Loudness und Energy sind ebenfalls bei den Hits höher, jedoch nur in einem sehr geringen Maße. Im Gegensatz dazu sind die Werte Speechiness, Acousticness, Instrumentalness und Liveness niedriger. Die Track-Dauer (etwa 2:30), das Tempo (rund 120 BPM) und die Lautstärke sind in beiden Datensätzen nahezu identisch. Die Hits sind noch stärker in Dur, als die Vergleichsgruppe, außerdem ist die Verteilung der Tonarten etwas unterschiedlich, jedoch nicht grundsätzlich anders. Hits sind noch stärker in C geschrieben, die vorherrschenden Tonarten sind jedoch bei beiden C und G und dann mit etwas Abstand D und A.
 
+Songtexte:
 
-The Files used for the Analysis can be downloaded here: 
+Die Sentiment-Analyse zeigte, dass Hit-Songs überwiegend positive Texte enthalten.
+
+Die Themenanalyse ergab, dass Hit-Songs häufig folgende Themen behandeln:
+
+Liebe (touch, feel, believe, tell, fall, forever)
+Gute Gefühle (life, good, think)
+Körperbezogenes (body, feel, need, want, somebody)
+Tanzen (dance, everybody, man, girl, hey)
+Die für die Analyse verwendeten Dateien können hier heruntergeladen werden:
 
 https://www.kaggle.com/datasets/joebeachcapital/top-10000-spotify-songs-1960-now
 
-and here
+und hier
 
 https://www.kaggle.com/datasets/bwandowando/spotify-songs-with-attributes-and-lyrics
 
-<img width="1000" height="500" alt="wordcloud_3" src="https://github.com/user-attachments/assets/2fc11a3d-8225-48b8-9ba1-cb9746709944" />
+wordcloud_3
