@@ -25,14 +25,12 @@ Die Themenanalyse ergab, dass Hit-Songs häufig folgende Themen behandeln:
 - Gute Gefühle (life, good, think)
 - Körperbezogenes (body, feel, need, want, somebody)
 - Tanzen (dance, everybody, man, girl, hey)
-  
-
 Die für die Analyse verwendeten Dateien können hier heruntergeladen werden:
-
+<br>
 https://www.kaggle.com/datasets/joebeachcapital/top-10000-spotify-songs-1960-now
-
+<br>
 und hier
-
+<br>
 https://www.kaggle.com/datasets/bwandowando/spotify-songs-with-attributes-and-lyrics
-
+<br><br>
 <img width="1000" height="500" alt="wordcloud_3" src="https://github.com/user-attachments/assets/2fc11a3d-8225-48b8-9ba1-cb9746709944" />
